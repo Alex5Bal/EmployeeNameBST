@@ -116,14 +116,14 @@ void PrintTree(treeNode *node) {
 
 int main() {
 
-	treeNode *root = NULL;
-	root = Insert(root, "Alex Balderrama");
-	root = Insert(root, "Joe Rojas");
-	root = Insert(root, "Phil Larson");
-	root = Insert(root, "Jordan Cisneros");
-	root = Insert(root, "Benny More");
+    treeNode *root = NULL;
+    root = Insert(root, "Alex Balderrama");
+    root = Insert(root, "Joe Rojas");
+    root = Insert(root, "Phil Larson");
+    root = Insert(root, "Jordan Cisneros");
+    root = Insert(root, "Benny More");
 	
-	PrintTree(root);
+    PrintTree(root);
     printf("\n");
     
     root = Delete(root, "Phil Larson");
